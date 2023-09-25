@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+
+}
+body{
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+.top-header p{
+  display: flex;
+  padding: 5px 600px; 
+}
+.top-header a{
+  color: white;
+  padding-left: 10px;
+
+}
+.exit{
+  background-color: black;
+  border: none;
+  margin-right: 60px;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+.search-bar{
+  display: flex;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+  border-radius: 62px;
+  background: #F0F0F0;
+  margin-right: 50px;
+  }
+
+.search-button{
+border: none;
+}
+.search-bar input{
+ color: rgba(0, 0, 0, 0.40);
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+background: #F0F0F0;
+
+}
+.search-bar ::placeholder{
+  outline-style: none;
+}
+.nav-bar ul{
+  display: flex;
+  list-style: none;
+ 
+}
+.nav-bar ul li{
+  padding-right: 20px;
+}
+
+.nav-bar-two ul{
+  display: flex;
+  list-style: none;
+  width: 80%;
+  margin: 40px auto;
+}
+.nav-bar-two ul button{
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+.star{
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;}
+
+  .your{
+    font-size: 60px;
+    margin: 20px 200px;
+  }
+  .left-side img{
+    height: 150px;
+  }
+
+  .sections{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section-one{
+    width: 10%;
+  }
+  .section-two{
+    width: 30%;
+  }
+  .section-two span{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .section-two span button{
+    border: none;
+    padding: 10px  40px;
+    font-size: 20px;
+    background: #646262;
+
+  }
+  .item-one span button, .item-two span button, .item-three span button{
+    background: none;
+  }
+ 
+  .section-two h3{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .section-two h2{
+    
+  }
+  .section-three{
+    width: 30%;
+  }
+  .section-three span{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .input-button{
+    margin: 20px 0;
+  }
+ .input-button  button{
+  padding:10px 30px;
+  border-radius:20px;
+  color: white;
+  background: black;
+
+ }
+
+ .input-button input{
+  padding: 10px 70px;
+  border-radius: 20px;
+ }
+ .input-button input{
+  background-image: url(../icons/mail-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 40px;
+  left: 10px;
+  
+ }
+ .check-out{
+  display: flex;
+  align-items: center;
+  padding: 10px 140px;
+  border-radius:30px;
+  color: white;
+  background: black;
+  font-size: 15px;
+
+ }
+ .check-out img{
+  height: 20px;
+  
+ }
+
+ .seventh-section{
+  margin-top: 250px;
+  position: relative;
+  height: 60vh;
+  background: #F0F0F0;
+
+}
+.input ::placeholder{
+  border: none;
+  color: black;
+}
+.grid-one{
+  left: 200px;
+  top: -100px;
+  position: absolute;
+  background-color: black;
+  display: flex;
+  width: 1240px;
+  margin: 0 auto;
+  padding: 100px 74px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  color: white;
+
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-right:150px;
+}
+.input input{
+  width: 349px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 62px;
+  background: #FFF;
+}
+.stay{
+  color: #FFF;
+font-family: Integral CF;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+
+}
+.last-section{
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background: #F0F0F0;
+  bottom: -750px;
+  margin: 0 100px;
+  width: 90%;
+}
+.last-section button{
+  border: none;
+}
+.footer-write-up{
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 250px;
+  display: flex;
+}
+.footer-write-up{
+  text-align: center;
+}
+.footer-write-up ul{
+ list-style: none;
+ padding: 10px 0;
+
+}
+.footer-write-up ul li{
+  padding: 10px 0;
+}
+.button-media{
+  padding: 40px 0;
+  
+}
+.first-row p{
+  padding: 30px 0;
+}
+.button-media button{
+  border-radius: 20px;
+  border: none;
+}
+.input .mail{
+  background-image: url(../icons/mail-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 20px;
+
+}
+.mail ::placeholder{
+  padding: 0 30px;
+}
